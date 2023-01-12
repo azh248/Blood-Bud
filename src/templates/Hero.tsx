@@ -29,7 +29,9 @@ const Hero = () => (
         title={
           <>
             {'BloodBud\n'}
-            <span className="text-gray-900">Your Malaria Screening Companion</span>
+            <span className="text-gray-900">
+              Your·Malaria·Screening·Companion
+            </span>
           </>
         }
         description="Low-cost effective malaria diagnosis, without the fluff (replace word)."
