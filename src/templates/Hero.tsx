@@ -30,7 +30,7 @@ const Hero = () => (
           <>
             {'BloodBud\n'}
             <span className="text-gray-900">
-              Your·Malaria·Screening·Companion
+              Your&nbsp;Malaria&nbsp;Screening&nbsp;Companion
             </span>
           </>
         }
