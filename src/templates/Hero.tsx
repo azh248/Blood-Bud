@@ -29,7 +29,7 @@ const Hero = () => (
         title={
           <>
             {'BloodBud\n'}
-            <span className="text-gray-900">
+            <span className="text-5xl text-gray-900">
               Your&nbsp;Malaria&nbsp;Screening&nbsp;Companion
             </span>
           </>

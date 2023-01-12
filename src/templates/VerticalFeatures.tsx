@@ -8,7 +8,26 @@ const VerticalFeatures = () => (
   >
     <VerticalFeatureRow
       title="Using 3D-printing to power up smartphones."
-      description="Traditional malaria diagnosis has always relied on expensive microscopes to see blood cells up close. We've replaced that with affordable, 3D-printed smartphone attachments to achieve 200x magnification at a widely accessible price point."
+      description={
+        <>
+          {'Traditional malaria diagnosis has long relied on expensive microscopes to see blood cells up close. '}
+          <span className="text-gray-900">
+            {'We\'ve replaced that with '}
+            <span className="text-xl font-bold underline decoration-sky-500 decoration-wavy">
+              {'affordable, 3D-printed '}
+            </span>
+            <span className="text-gray-900">
+              {'smartphone attachments to achieve '}
+            </span>
+            <span className="text-xl font-bold underline decoration-sky-500 decoration-wavy">
+              {'200x magnification '}
+            </span>
+            <span>
+              {'at a widely accessible price point.'}
+            </span>
+          </span>
+        </>
+      }
       image="/assets/images/feature.svg"
       imageAlt="Smartphone attachment"
     />
