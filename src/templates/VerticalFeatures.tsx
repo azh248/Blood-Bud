@@ -7,7 +7,15 @@ const VerticalFeatures = () => (
     description="Hint: by breaking down the expensive and unnecessary diagnosis process and replacing it with cheaper alternatives!"
   >
     <VerticalFeatureRow
-      title="Using 3D-printing to power up smartphones."
+      title={
+        <>
+          {'Using 3D-printing to '}
+          <span className="font-bold underline decoration-sky-500 decoration-double">
+            {'power up '}
+          </span>
+          {'smartphones. '}
+        </>
+      }
       description={
         <>
           {'Traditional malaria diagnosis has long relied on expensive microscopes to see blood cells up close. '}
@@ -28,18 +36,34 @@ const VerticalFeatures = () => (
           </span>
         </>
       }
-      image="/assets/images/feature.svg"
+      image="/assets/images/microscope.png"
       imageAlt="Smartphone attachment"
     />
     <VerticalFeatureRow
-      title="Deep learning-based diagnosis"
+      title={
+        <>
+          {'Fast and accurate diagnosis, powered by '}
+          <span className="font-bold underline decoration-sky-500 decoration-double">
+            {'state-of-the-art'}
+          </span>
+          {' deep learning models. '}
+        </>
+      }
       description="text here."
       image="/assets/images/feature2.svg"
       imageAlt="Deep learning page"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
+      title={
+        <>
+          {'Using 3D-printing to '}
+          <span className="font-bold underline decoration-sky-500 decoration-double">
+            {'power up '}
+          </span>
+          {'smartphones. '}
+        </>
+      }
       description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
       image="/assets/images/feature3.svg"
       imageAlt="Third feature alt text"

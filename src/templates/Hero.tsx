@@ -34,7 +34,7 @@ const Hero = () => (
             </span>
           </>
         }
-        description="Low-cost effective malaria diagnosis, without the fluff (replace word)."
+        description="Low-cost, smartphone-based malaria diagnosis."
         button={
           <Link href="innovationvideogoeshere">
             <a>
