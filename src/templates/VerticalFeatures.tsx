@@ -25,13 +25,10 @@ const VerticalFeatures = () => (
               {'affordable, 3D-printed '}
             </span>
             <span className="text-gray-900">
-              {'smartphone attachments to achieve '}
+              {'smartphone microscope attachments to make the whole process '}
             </span>
             <span className="text-xl font-bold underline decoration-sky-500 decoration-wavy">
-              {'200x magnification '}
-            </span>
-            <span>
-              {'at a widely accessible price point.'}
+              {'simple and widely accessible.'}
             </span>
           </span>
         </>

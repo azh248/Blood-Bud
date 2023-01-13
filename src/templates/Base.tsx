@@ -3,6 +3,7 @@ import { AppConfig } from '../utils/AppConfig';
 import { Banner } from './Banner';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
+import { MeetTeam } from './MeetTeam'
 import { MiddleVerticalFeatures } from './MiddleVerticalFeatures';
 import { VerticalFeatures } from './VerticalFeatures';
 
@@ -12,6 +13,7 @@ const Base = () => (
     <Hero />
     <MiddleVerticalFeatures />
     <VerticalFeatures />
+    <MeetTeam />
     <Banner />
     <Footer />
   </div>
