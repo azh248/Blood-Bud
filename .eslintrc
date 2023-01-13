@@ -28,7 +28,7 @@
       },
       "rules": {
         "prettier/prettier": [
-          "error",
+          "off",
           {
             "singleQuote": true
           }
