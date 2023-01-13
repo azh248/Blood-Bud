@@ -10,7 +10,13 @@ import { Logo } from './Logo';
 const Hero = () => (
   <Background color="bg-gray-100">
     <Section yPadding="py-6">
-      <NavbarTwoColumns logo={<Logo xl />}>
+      <NavbarTwoColumns logo={
+        <Logo
+          image="assets/images/logo4.png"
+          imageAlt="logo"
+          description="BloodBud"
+        />
+      }>
         <li>
           <Link href="https://github.com/azh248/Blood-Bud">
             <a>GitHub</a>
@@ -35,10 +41,17 @@ const Hero = () => (
           </>
         }
         description="Low-cost, smartphone-based malaria diagnosis."
-        button={
+        button1={
           <Link href="innovationvideogoeshere">
             <a>
               <Button xl>See How It Works</Button>
+            </a>
+          </Link>
+        }
+        button2={
+          <Link href="innovationvideogoeshere">
+            <a>
+              <Button xl>Our Pitch Deck</Button>
             </a>
           </Link>
         }

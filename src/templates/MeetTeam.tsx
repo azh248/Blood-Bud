@@ -15,13 +15,13 @@ const MeetTeam = () => (
   <MeetTeamCard
     title={'Matthew'}
     description={'Hi!'}
-    image="/assets/images/matthew.png"
+    image="/assets/images/matthew.jpeg"
     imageAlt=""
     />
   <MeetTeamCard
     title={'Sanjay'}
     description={'Hi!'}
-    image="/assets/images/sanjay.png"
+    image="/assets/images/sanjay.jpeg"
     imageAlt=""
     />
   </MeetTeamCardTitle>

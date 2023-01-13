@@ -6,7 +6,7 @@ const MiddleVerticalFeatures = () => (
     title={
         <>
           {'So What '}
-          <span className="font-bold underline decoration-sky-500 decoration-double">
+          <span className="font-bold underline decoration-red-500 decoration-double">
             {'Is'}
           </span>
           {' Malaria Screening? '}
@@ -18,7 +18,7 @@ const MiddleVerticalFeatures = () => (
       title={
         <>
           {'Using 3D-printing to '}
-          <span className="font-bold underline decoration-sky-500 decoration-double">
+          <span className="font-bold underline decoration-red-500 decoration-double">
             {'power up '}
           </span>
           {'smartphones. '}
@@ -32,7 +32,7 @@ const MiddleVerticalFeatures = () => (
       title={
         <>
           {'Using 3D-printing to '}
-          <span className="font-bold underline decoration-sky-500 decoration-double">
+          <span className="font-bold underline decoration-red-500 decoration-double">
             {'power up '}
           </span>
           {'smartphones. '}

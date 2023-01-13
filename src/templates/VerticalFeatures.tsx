@@ -10,7 +10,7 @@ const VerticalFeatures = () => (
       title={
         <>
           {'Using 3D-printing to '}
-          <span className="font-bold underline decoration-sky-500 decoration-double">
+          <span className="font-bold underline decoration-red-500 decoration-double">
             {'power up '}
           </span>
           {'smartphones. '}
@@ -21,13 +21,13 @@ const VerticalFeatures = () => (
           {'Traditional malaria diagnosis has long relied on expensive microscopes to see blood cells up close. '}
           <span className="text-gray-900">
             {'We\'ve replaced that with '}
-            <span className="text-xl font-bold underline decoration-sky-500 decoration-wavy">
+            <span className="text-xl font-bold underline decoration-red-500 decoration-wavy">
               {'affordable, 3D-printed '}
             </span>
             <span className="text-gray-900">
               {'smartphone microscope attachments to make the whole process '}
             </span>
-            <span className="text-xl font-bold underline decoration-sky-500 decoration-wavy">
+            <span className="text-xl font-bold underline decoration-red-500 decoration-wavy">
               {'simple and widely accessible.'}
             </span>
           </span>
@@ -40,7 +40,7 @@ const VerticalFeatures = () => (
       title={
         <>
           {'Fast and accurate diagnosis, powered by '}
-          <span className="font-bold underline decoration-sky-500 decoration-double">
+          <span className="font-bold underline decoration-red-500 decoration-double">
             {'state-of-the-art'}
           </span>
           {' deep learning models. '}
@@ -55,7 +55,7 @@ const VerticalFeatures = () => (
       title={
         <>
           {'Using 3D-printing to '}
-          <span className="font-bold underline decoration-sky-500 decoration-double">
+          <span className="font-bold underline decoration-red-500 decoration-double">
             {'power up '}
           </span>
           {'smartphones. '}
