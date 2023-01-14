@@ -31,7 +31,7 @@ const VerticalFeatureRowBoxes = () => (
           {' of deaths per year. Currently, screening methods to detect these diseases exist, but they require high costs and expensive equipment.'}
         </>
       }
-      image="/assets/images/bloodscreening.png"
+      image="/assets/images/bloodimage.png"
       imageAlt=""
     />
     <FeatureRowBox
@@ -47,17 +47,17 @@ const VerticalFeatureRowBoxes = () => (
       description={
         <>
           {'We aim to provide accurate, affordable, and accessible diagnostics for hematological diseases. By combining 3D printing with deep learning, we\'ve created a '}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold underline decoration-purple-500 decoration-wavy">
               {'low-cost'}
             </span>
           {' diagnostic framework accessible to remote or developing areas, '}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold underline decoration-green-500 decoration-wavy">
               {'without'}
             </span>
             {' a need for medical training and equipment.'}
         </>
       }
-      image="/assets/images/logo4.png"
+      image="/assets/images/bloodscreening.png"
       imageAlt="Deep learning page"
       reverse
     />
@@ -86,11 +86,11 @@ const VerticalFeatureRowBoxes = () => (
       description={
         <>
           {'We use a 3D-printed microscope attachment to greatly lower the cost of the screening test, while still retaining a '}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold underline decoration-yellow-500 decoration-wavy">
               {'high level'}
             </span>
           {' of image resolution, on par with traditional screening tests that use laboratory microscopes. We then combine the affordability of this microscope attachment with the convenience and accessibility of a '}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold underline decoration-blue-500 decoration-wavy">
               {'smartphone'}
             </span>
             {'. Our result is a product that is able to cut down on the cost of medical equipment while retaining the quality of blood cell images for our algorithms.'}
@@ -111,15 +111,11 @@ const VerticalFeatureRowBoxes = () => (
       }
       description={
         <>
-          {''}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
-              {''}
+          {'We reviewed hundreds of academic research papers in the field of machine learning (ML) to create BloodBud. Our proprietary algorithm was trained and tested on two '}
+            <span className="font-bold underline decoration-purple-500 decoration-wavy">
+              {'high-quality'}
             </span>
-          {''}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
-              {''}
-            </span>
-            {''}
+          {' cell images datasets from the Chittagong Medical College Hospital, Bangladesh and the University of the Balearic Islands, Spain, which collectively provided over 30,000 cell images for analysis.'}
         </>
       }
       image="/assets/images/deeplearning.png"
@@ -148,11 +144,11 @@ const VerticalFeatureRowBoxes = () => (
       description1={
         <>
           {'Current blood screening methods include microscopy analysis and Rapid Diagnostic Tests, which cost '}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold underline decoration-green-500 decoration-wavy">
               {'over $6 and $2'}
             </span>
           {', respectively. The raw-material cost for our reusable smartphone attachment comes in at just '}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold underline decoration-blue-500 decoration-wavy">
               {'$0.49'}
             </span>
             {', a fraction of the cost of other solutions.'}

@@ -12,7 +12,7 @@ const Banner = () => (
       button={
         <Link href="https://github.com/matthewchang0/BloodBud">
           <a>
-            <Button>GitHub</Button>
+            <Button>Model GitHub</Button>
           </a>
         </Link>
       }

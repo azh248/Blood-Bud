@@ -1,7 +1,5 @@
 import { ReactNode } from 'react';
 
-import className from 'classnames';
-
 type MeetTeamCardTitleProps = {
   title: ReactNode;
   reverse?: boolean;
@@ -9,23 +7,12 @@ type MeetTeamCardTitleProps = {
 };
 
 const MeetTeamCardTitle = (props: MeetTeamCardTitleProps) => {
-  const verticalFeatureClass = className(
-    'mt-20',
-    'mb-20',
-    'flex',
-    'flex-wrap',
-    'items-center',
-    {
-      'flex-row-reverse': props.reverse,
-    }
-  );
-
   return (
-    <div className={verticalFeatureClass}>
-      <div className="w-full sm:w-2/5 text-center sm:px-6 ">
+    <div className="">
+      <div className="items-center w-full text-center">
         <h3 className="text-5xl text-gray-900 font-semibold">{props.title}</h3>
       </div>
-      <div className="w-full sm:w-1/2 text-center sm:px-6 space-y-15">
+      <div className="w-full pl-10">
         {props.children}
       </div>
     </div>

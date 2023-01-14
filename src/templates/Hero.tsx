@@ -19,27 +19,37 @@ const Hero = () => (
       }>
         <li>
           <Link href="https://github.com/azh248/Blood-Bud">
-            <a>GitHub</a>
+            <a>Website GitHub</a>
           </Link>
         </li>
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pt-5">
+    <Section yPadding="pt-6">
       <HeroOneButton
-        title={
-          <>
-            {'BloodBud\n'}
-            <span className="text-5xl text-gray-900">
+        title='BloodBud'
+        subtitle={
+            <span className="text-5xl font-bold text-gray-900">
               Your Mobile Screening Companion
             </span>
+        }
+        description={
+          <>
+            {'BloodBud is an ultra low-cost, deep learning and computer vision-based smartphone screening system for hematological diseases like malaria and sickle cell anemia. By '}
+            <span className="font-bold underline decoration-green-500 decoration-wavy">
+              {'merging'}
+            </span>
+            {' the two disciplines of 3D printing and machine learning, we have developed a '}
+            <span className="font-bold underline decoration-purple-500 decoration-wavy">
+              {'novel and innovative'}
+            </span>
+            {' product to combat the lack of accessibility in medical technology for developing nations. '}
           </>
         }
-        description="Ultra low-cost, smartphone-based hematological screening."
         button1={
           <Link href="https://youtu.be/Df1l2qb1W2c">
             <a>
-              <Button xl>See How It Works</Button>
+              <Button xl>Innovation Video</Button>
             </a>
           </Link>
         }
@@ -47,6 +57,13 @@ const Hero = () => (
           <Link href="https://docs.google.com/presentation/d/1e25_5TiNOMrhWhCK1iv_x3_PgBUgZLl3Vb_IGovgcIk/edit?usp=sharing">
             <a>
               <Button xl>Our Pitch Deck</Button>
+            </a>
+          </Link>
+        }
+        button3={
+          <Link href="">
+            <a>
+              <Button xl>Open-Source Code</Button>
             </a>
           </Link>
         }

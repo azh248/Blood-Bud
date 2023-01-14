@@ -20,7 +20,7 @@ const FeatureRowBoxHalf = (props: IVerticalFeatureRowBoxHalfProps) => {
 
   return (
     <div className={verticalFeatureClass}>
-      <div className="box-content p-4 border-4 w-full sm:w-1/2 text-center sm:px-6 ">
+      <div className="box-content p-4 border-4 w-full sm:w-1/2 sm:px-6 ">
         <h3 className="text-3xl text-gray-900 font-semibold">{props.title1}</h3>
         <div className="mt-1 text-l text-gray-900 leading-6 whitespace-pre-wrap">
           {props.description1}
@@ -29,7 +29,7 @@ const FeatureRowBoxHalf = (props: IVerticalFeatureRowBoxHalfProps) => {
 
       <div className="p-3"></div>
 
-      <div className="box-content p-4 border-4 w-full sm:w-1/2 text-center sm:px-6 ">
+      <div className="box-content p-4 border-4 w-full sm:w-1/2 sm:px-6 ">
         <h3 className="text-3xl text-gray-900 font-semibold">{props.title2}</h3>
         <div className="mt-1 text-l text-gray-900 leading-6 whitespace-pre-wrap">
           {props.description2}
