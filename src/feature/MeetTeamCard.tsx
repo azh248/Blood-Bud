@@ -8,6 +8,7 @@ type IVerticalFeatureRowProps = {
   description: ReactNode;
   image: string;
   imageAlt: string;
+  linkedin: string
   reverse?: boolean;
 };
 
@@ -28,7 +29,11 @@ const MeetTeamCard = (props: IVerticalFeatureRowProps) => {
   return (
     <div className={verticalFeatureClass}>
       <div className="w-full w-24 h-24">
-        <img src={`${router.basePath}${props.image}`} alt={props.imageAlt} />
+        <figure className="">
+          <a href={props.linkedin}>
+            <img src={`${router.basePath}${props.image}`} alt={props.imageAlt} />
+          </a>
+        </figure>
       </div>
       <div className="w-full sm:w-2/3 pl-10">
         <h3 className="text-2xl text-gray-900 font-semibold">{props.title}</h3>
