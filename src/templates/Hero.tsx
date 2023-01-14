@@ -19,7 +19,11 @@ const Hero = () => (
       }>
         <li>
           <Link href="https://github.com/azh248/Blood-Bud">
-            <a>Website GitHub</a>
+            <a>
+              <div className="text-gray-900 text-xl">
+                Website GitHub
+              </div>
+            </a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -36,14 +40,14 @@ const Hero = () => (
         description={
           <>
             {'BloodBud is an ultra low-cost, deep learning and computer vision-based smartphone screening system for hematological diseases like malaria and sickle cell anemia. By '}
-            <span className="font-bold underline decoration-green-500 decoration-wavy">
-              {'merging'}
+            <span className="font-bold placeholder">
+              {'merging the two disciplines of 3D printing and machine learning'}
             </span>
-            {' the two disciplines of 3D printing and machine learning, we have developed a '}
-            <span className="font-bold underline decoration-purple-500 decoration-wavy">
-              {'novel and innovative'}
+            {', we have developed a novel and innovative product to '}
+            <span className="font-bold placeholder">
+              {'combat the lack of accessibility'}
             </span>
-            {' product to combat the lack of accessibility in medical technology for developing nations. '}
+            {' in medical technology for developing nations. '}
           </>
         }
         button1={

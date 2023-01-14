@@ -10,7 +10,7 @@ const VerticalFeatures = () => (
       title={
         <>
           {'Using 3D-printing to '}
-          <span className="font-bold underline decoration-red-500 decoration-double">
+          <span className="font-bold placeholder">
             {'power up '}
           </span>
           {'smartphones. '}
@@ -40,7 +40,7 @@ const VerticalFeatures = () => (
       title={
         <>
           {'Fast and accurate diagnosis, powered by '}
-          <span className="font-bold underline decoration-red-500 decoration-double">
+          <span className="font-bold placeholder">
             {'state-of-the-art'}
           </span>
           {' deep learning models. '}
@@ -71,7 +71,7 @@ const VerticalFeatures = () => (
       title={
         <>
           {'Using 3D-printing to '}
-          <span className="font-bold underline decoration-red-500 decoration-double">
+          <span className="font-bold placeholder">
             {'power up '}
           </span>
           {'smartphones. '}
