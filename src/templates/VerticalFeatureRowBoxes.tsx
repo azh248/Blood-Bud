@@ -11,7 +11,7 @@ const VerticalFeatureRowBoxes = () => (
       title={
         <>
           {'Why is improving blood screening '}
-          <span className="font-bold placeholder">
+          <span className="font-extrabold text-red-500 placeholder">
             {'important'}
           </span>
           {'?'}
@@ -38,7 +38,7 @@ const VerticalFeatureRowBoxes = () => (
       title={
         <>
           {'Cool. So how does '}
-          <span className="font-bold placeholder">
+          <span className="font-extrabold text-red-500 placeholder">
             {'BloodBud'}
           </span>
           {' factor in?'}
@@ -76,7 +76,7 @@ const VerticalFeatureRowBoxes = () => (
       title={
         <>
           {'Using 3D-printing to '}
-          <span className="font-bold placeholder">
+          <span className="font-extrabold text-red-500 placeholder">
             {'power up'}
           </span>
           {' smartphones. '}
@@ -111,7 +111,7 @@ const VerticalFeatureRowBoxes = () => (
     <FeatureRowBox
       title={
         <>
-          <span className="font-bold placeholder">
+          <span className="font-extrabold text-red-500 placeholder">
             {'State-of-the-art'}
           </span>
           {' deep learning models. '}
