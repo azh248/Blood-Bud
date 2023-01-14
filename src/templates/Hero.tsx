@@ -37,7 +37,7 @@ const Hero = () => (
         }
         description="Ultra low-cost, smartphone-based hematological screening."
         button1={
-          <Link href="innovationvideogoeshere">
+          <Link href="https://youtu.be/Df1l2qb1W2c">
             <a>
               <Button xl>See How It Works</Button>
             </a>
