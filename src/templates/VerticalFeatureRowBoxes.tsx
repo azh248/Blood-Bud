@@ -62,7 +62,7 @@ const VerticalFeatureRowBoxes = () => (
       reverse
     />
 
-    <div className="mb-12 mt-12">
+    <div className="mb-10 mt-10">
         {"Title" && (
         <h2 className="text-4xl text-gray-900 font-bold">How does BloodBud&nbsp;
           <div className="inline font-bold underline decoration-red-500 decoration-double">work</div>
@@ -99,6 +99,7 @@ const VerticalFeatureRowBoxes = () => (
       image="/assets/images/3dprint.png"
       imageAlt="Smartphone attachment"
       width="w-100"
+      height="h-56"
     />
     <FeatureRowBox
       title={
@@ -121,10 +122,11 @@ const VerticalFeatureRowBoxes = () => (
       image="/assets/images/deeplearning.png"
       imageAlt="Deep learning page"
       reverse
+      height="h-44"
     />
 
   
-    <div className="mb-12 mt-12">
+    <div className="mb-10 mt-10">
         {"Title" && (
         <h2 className="text-4xl text-gray-900 font-bold">What makes BloodBud&nbsp;
           <div className="inline font-bold underline decoration-red-500 decoration-double">unique</div>

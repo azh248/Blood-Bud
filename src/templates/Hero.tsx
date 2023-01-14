@@ -61,7 +61,7 @@ const Hero = () => (
           </Link>
         }
         button3={
-          <Link href="">
+          <Link href="https://github.com/matthewchang0/BloodBud">
             <a>
               <Button xl>Open-Source Code</Button>
             </a>
