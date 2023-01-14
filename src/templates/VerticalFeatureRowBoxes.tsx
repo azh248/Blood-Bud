@@ -64,7 +64,7 @@ const VerticalFeatureRowBoxes = () => (
     <div className="mb-10 mt-10">
         {"Title" && (
         <h2 className="text-4xl text-gray-900 font-bold">How does BloodBud&nbsp;
-          <div className="inline font-bold placeholder">work</div>
+          <div className="inline font-extrabold text-red-500 placeholder">work</div>
           ?</h2>
         )}
         {/* {"Description" && (
@@ -151,7 +151,7 @@ const VerticalFeatureRowBoxes = () => (
     <FeatureRowBoxHalf
       title1={
         <>
-          <span className="font-bold">
+          <span className="font-bold text-red-500">
             {'Cost'}
           </span>
         </>
@@ -162,73 +162,73 @@ const VerticalFeatureRowBoxes = () => (
             <span className="font-bold placeholder">
               {'over $6 and $2'}
             </span>
-          {', respectively. The raw-material cost for our reusable smartphone attachment comes in at just '}
+          {', respectively. By cutting down on unncessary and expensive equipment, we\'ve made hematological screening affordable and accessible. Our smartphone attachment attains the same image resolution as top alternative screening methods, but the raw-material cost for our product comes in at just '}
             <span className="font-bold placeholder">
               {'$0.49'}
             </span>
-            {', a fraction of the cost of other solutions.'}
+            {', a fraction of the cost of other solutions. And what\'s more, since we removed lab-based test components, our product is reusable by nature and can provide years of service with proper care.'}
         </>
       }
       title2={
         <>
-          <span className="font-bold">
-            {'Accessibility'}
+          <span className="font-bold text-red-500">
+            {'Speed'}
           </span>
         </>
       }
       description2={
         <>
-          {''}
+          {'BloodBud is able to quickly and easily analyze a blood sample, providing results in a matter of minutes. This is significantly faster than traditional diagnostic methods, which can take '}
             <span className="font-bold placeholder">
-              {''}
+              {'hours or even days'}
             </span>
-          {''}
+          {' to provide results. This speed is particularly beneficial in emergency situations, where quick and accurate diagnosis '}
             <span className="font-bold placeholder">
-              {''}
+              {'can be the difference between life and death.'}
             </span>
-            {''}
+            {' Additionally, the speed of BloodBud can also help to reduce the spread of infectious diseases. By providing a rapid diagnosis, the device can help to identify and isolate infected individuals, preventing the disease from spreading.'}
         </>
       }
     />
     <FeatureRowBoxHalf
-      title1={
+            title1={
         <>
-          <span className="font-bold">
-            {'Speed'}
+          <span className="font-bold text-red-500">
+            {'Accessibility'}
           </span>
         </>
       }
       description1={
         <>
-          {''}
+          {'The accessibility of BloodBud is one of its most significant benefits. The device is inexpensive to produce, which means it can be made '}
             <span className="font-bold placeholder">
-              {''}
+              {'widely available to remote and low-income communities.'}
             </span>
-          {''}
+          {' This is particularly important in areas where access to medical facilities and equipment is limited. Additionally, the device is easy to use and does not require any special training, making it accessible to people of all skill levels. This means that people in remote areas can diagnose and treat hematological diseases '}
             <span className="font-bold placeholder">
-              {''}
+              {'without having to travel to a hospital or clinic.'}
             </span>
-            {''}
+            {' This can save time and money, and also improve health outcomes.'}
         </>
       }
       title2={
         <>
-          <span className="font-bold">
+          <span className="font-bold text-red-500">
             {'Accuracy'}
           </span>
         </>
       }
       description2={
         <>
-          {''}
+          {'Our innovation has been tested and has shown to have a '}
             <span className="font-bold placeholder">
-              {''}
+              {'high level of accuracy in its results.'}
             </span>
-          {''}
+          {' Its test accuracy is 94.0%, which means that out of 204 samples, 192 of them were correctly diagnosed. Additionally, the device has an Area Under the Curve value of 97.1%, which is a measure of the overall accuracy of a diagnostic test. Additionally, our product scores high on other measurements: it obtains an average of over 95% on the precision, sensitivity, and specificity values. Together, these results indicate that BloodBud is a '}
             <span className="font-bold placeholder">
-              {''}
+              {'reliable and accurate diagnostic tool'}
             </span>
-            {''}
+            {' for hematological diseases.'}
         </>
       }
     />
