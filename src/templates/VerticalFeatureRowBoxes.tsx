@@ -31,7 +31,7 @@ const VerticalFeatureRowBoxes = () => (
           {' of deaths per year. Currently, screening methods to detect these diseases exist, but they require high costs and expensive equipment.'}
         </>
       }
-      image="/assets/images/bloodscreening.jpg"
+      image="/assets/images/bloodscreening.png"
       imageAlt=""
     />
     <FeatureRowBox
@@ -96,7 +96,7 @@ const VerticalFeatureRowBoxes = () => (
             {'. Our result is a product that is able to cut down on the cost of medical equipment while retaining the quality of blood cell images for our algorithms.'}
         </>
       }
-      image="/assets/images/3dprint.jpg"
+      image="/assets/images/3dprint.png"
       imageAlt="Smartphone attachment"
       width="w-100"
     />
