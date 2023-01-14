@@ -3,20 +3,28 @@ import { ReactNode } from 'react';
 import className from 'classnames';
 import { useRouter } from 'next/router';
 
-type IVerticalFeatureRowProps = {
+type IVerticalFeatureRowBoxProps = {
   title: ReactNode;
   description: ReactNode;
   image: string;
   imageAlt: string;
   reverse?: boolean;
+  height?: string;
+  width?: string;
 };
 
-const MiddleVerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
+const FeatureRowBox = (props: IVerticalFeatureRowBoxProps) => {
+  const width = (typeof props.width !== null) ? props.width : 'w-400';
   const verticalFeatureClass = className(
-    'mt-20',
+    'mt-5',
     'flex',
-    'flex-wrap',
+    'flex-row',
     'items-center',
+    'box-content',
+    props.height,
+    width,
+    'p-4',
+    'border-4', 
     {
       'flex-row-reverse': props.reverse,
     }
@@ -26,16 +34,16 @@ const MiddleVerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
 
   return (
     <div className={verticalFeatureClass}>
-      <div className="w-full sm:w-1/2 text-center sm:px-6">
+      <div className="w-full sm:w-1/2 sm:px-6 basis-4/5">
         <h3 className="text-3xl text-gray-900 font-semibold">{props.title}</h3>
-        <div className="mt-6 text-xl leading-9">{props.description}</div>
+        <div className="mt-1 text-l text-gray-900 leading-6">{props.description}</div>
       </div>
 
-      <div className="w-full sm:w-1/2 p-6">
+      <div className="w-full sm:w-1/2 p-6 basis-1/5">
         <img src={`${router.basePath}${props.image}`} alt={props.imageAlt} />
       </div>
     </div>
   );
 };
 
-export { MiddleVerticalFeatureRow };
+export { FeatureRowBox };

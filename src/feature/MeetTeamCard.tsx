@@ -13,7 +13,7 @@ type IVerticalFeatureRowProps = {
 
 const MeetTeamCard = (props: IVerticalFeatureRowProps) => {
   const verticalFeatureClass = className(
-    'mt-20',
+    'mt-5',
     'flex',
     'flex-wrap',
     'items-center',
@@ -29,9 +29,9 @@ const MeetTeamCard = (props: IVerticalFeatureRowProps) => {
       <div className="w-full sm:w-2/5 p-6">
         <img src={`${router.basePath}${props.image}`} alt={props.imageAlt} />
       </div>
-      <div className="w-full sm:w-3/5 text-center sm:pl-20 ">
-        <h3 className="text-2xl text-gray-900 font-semibold">{props.title}</h3>
-        <div className="mt-6 text-xl text-gray-900 leading-9 whitespace-pre-wrap">
+      <div className="w-full sm:w-3/5 sm:pl-20 ">
+        <h3 className="text-2xl text-gray-900 text-center font-semibold">{props.title}</h3>
+        <div className="mt-2 text-l text-gray-900 leading-7 whitespace-pre-wrap">
           {props.description}
         </div>
       </div>

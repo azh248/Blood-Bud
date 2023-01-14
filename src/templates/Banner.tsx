@@ -7,12 +7,12 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Try out our easy-to-use diagnosis page."
-      subtitle="One image upload—that's it!"
+      title="Take a look at our deep learning-based diagnosis model on GitHub."
+      subtitle="One image upload—that's all it needs!"
       button={
-        <Link href="">
+        <Link href="https://github.com/matthewchang0/BloodBud">
           <a>
-            <Button>Get Started</Button>
+            <Button>GitHub</Button>
           </a>
         </Link>
       }

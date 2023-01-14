@@ -8,7 +8,7 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-white-100">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={
         <Logo
@@ -22,25 +22,20 @@ const Hero = () => (
             <a>GitHub</a>
           </Link>
         </li>
-        <li>
-          <Link href="/">
-            <a>Sign in</a>
-          </Link>
-        </li>
       </NavbarTwoColumns>
     </Section>
 
-    <Section yPadding="pt-20 pb-32">
+    <Section yPadding="pt-5">
       <HeroOneButton
         title={
           <>
             {'BloodBud\n'}
             <span className="text-5xl text-gray-900">
-              Your&nbsp;Malaria&nbsp;Screening&nbsp;Companion
+              Your Mobile Screening Companion
             </span>
           </>
         }
-        description="Low-cost, smartphone-based malaria diagnosis."
+        description="Ultra low-cost, smartphone-based hematological screening."
         button1={
           <Link href="innovationvideogoeshere">
             <a>
@@ -49,7 +44,7 @@ const Hero = () => (
           </Link>
         }
         button2={
-          <Link href="innovationvideogoeshere">
+          <Link href="https://docs.google.com/presentation/d/1e25_5TiNOMrhWhCK1iv_x3_PgBUgZLl3Vb_IGovgcIk/edit?usp=sharing">
             <a>
               <Button xl>Our Pitch Deck</Button>
             </a>

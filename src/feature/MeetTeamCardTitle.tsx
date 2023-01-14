@@ -11,6 +11,7 @@ type MeetTeamCardTitleProps = {
 const MeetTeamCardTitle = (props: MeetTeamCardTitleProps) => {
   const verticalFeatureClass = className(
     'mt-20',
+    'mb-20',
     'flex',
     'flex-wrap',
     'items-center',

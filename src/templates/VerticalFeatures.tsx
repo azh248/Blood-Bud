@@ -46,7 +46,23 @@ const VerticalFeatures = () => (
           {' deep learning models. '}
         </>
       }
-      description="text here."
+      description={
+        <>
+          {'Traditional malaria diagnosis has long relied on expensive microscopes to see blood cells up close. '}
+          <span className="text-gray-900">
+            {'We\'ve replaced that with '}
+            <span className="text-xl font-bold underline decoration-red-500 decoration-wavy">
+              {'affordable, 3D-printed '}
+            </span>
+            <span className="text-gray-900">
+              {'smartphone microscope attachments to make the whole process '}
+            </span>
+            <span className="text-xl font-bold underline decoration-red-500 decoration-wavy">
+              {'simple and widely accessible.'}
+            </span>
+          </span>
+        </>
+      }
       image="/assets/images/feature2.svg"
       imageAlt="Deep learning page"
       reverse
