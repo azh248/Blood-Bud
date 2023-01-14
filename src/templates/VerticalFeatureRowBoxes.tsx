@@ -140,7 +140,7 @@ const VerticalFeatureRowBoxes = () => (
     <div className="mb-10 mt-10">
         {"Title" && (
         <h2 className="text-4xl text-gray-900 font-bold">What makes BloodBud&nbsp;
-          <div className="inline font-bold placeholder">unique</div>
+          <div className="inline font-extrabold text-red-500 placeholder">unique</div>
           ?</h2>
         )}
         {/* {"Description" && (
@@ -151,7 +151,9 @@ const VerticalFeatureRowBoxes = () => (
     <FeatureRowBoxHalf
       title1={
         <>
-          {'Cost'}
+          <span className="font-bold">
+            {'Cost'}
+          </span>
         </>
       }
       description1={
@@ -169,17 +171,19 @@ const VerticalFeatureRowBoxes = () => (
       }
       title2={
         <>
-          {'Accessibility'}
+          <span className="font-bold">
+            {'Accessibility'}
+          </span>
         </>
       }
       description2={
         <>
           {''}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold placeholder">
               {''}
             </span>
           {''}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold placeholder">
               {''}
             </span>
             {''}
@@ -189,17 +193,19 @@ const VerticalFeatureRowBoxes = () => (
     <FeatureRowBoxHalf
       title1={
         <>
-          {'Speed'}
+          <span className="font-bold">
+            {'Speed'}
+          </span>
         </>
       }
       description1={
         <>
           {''}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold placeholder">
               {''}
             </span>
           {''}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold placeholder">
               {''}
             </span>
             {''}
@@ -207,17 +213,19 @@ const VerticalFeatureRowBoxes = () => (
       }
       title2={
         <>
-          {'Accuracy'}
+          <span className="font-bold">
+            {'Accuracy'}
+          </span>
         </>
       }
       description2={
         <>
           {''}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold placeholder">
               {''}
             </span>
           {''}
-            <span className="font-bold underline decoration-red-500 decoration-wavy">
+            <span className="font-bold placeholder">
               {''}
             </span>
             {''}
